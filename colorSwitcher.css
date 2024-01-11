@@ -1,0 +1,73 @@
+
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        transition: background-color 0.5s ease;
+        background-color: #ff8214; /* Default background color (orange) */
+      }
+
+      #colorButtonsContainer {
+        border: 2px solid #fff;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+
+      button {
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        border-radius: 5px;
+        color: #fff; /* Text color for better visibility */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      #colorButtons {
+        display: flex;
+        overflow: hidden;
+      }
+
+      /* Button-specific styles */
+      button:nth-child(1) {
+        background-color: #ff8214;
+      }
+      button:nth-child(2) {
+        background-color: #33ff57;
+      }
+      button:nth-child(3) {
+        background-color: #5733ff;
+      }
+      button:nth-child(4) {
+        background-color: #ffc0cb;
+      }
+      button:nth-child(5) {
+        background-color: #33a4ff;
+      }
+      button:nth-child(6) {
+        background-color: #ffd633;
+      }
+      button:nth-child(7) {
+        background-color: #333333;
+      }
+      button:nth-child(8) {
+        background-color: #ffffff;
+        color: #333; /* Adjust text color for better visibility */
+      }
+      button:nth-child(9) {
+        background-color: #ff0000;
+      }
+      button:nth-child(10) {
+        background-color: #33ffec;
+      }
