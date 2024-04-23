@@ -22,9 +22,9 @@
         cursor: pointer;
         border: none;
         outline: none;
-        font-size: 16px;
+        font-size: 21px;
         border-radius: 5px;
-        color: #fff; /* Text color for better visibility */
+        color: #000000; /* Text color for better visibility */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         transition: transform 0.2s ease, box-shadow 0.2s ease;
       }
@@ -38,6 +38,12 @@
         display: flex;
         overflow: hidden;
       }
+
+      @media (max-width: 908px) {
+        #colorButtons {
+        flex-direction: column;
+        }
+     }
 
       /* Button-specific styles */
       button:nth-child(1) {
@@ -59,11 +65,11 @@
         background-color: #ffd633;
       }
       button:nth-child(7) {
-        background-color: #333333;
+        background-color: #000000;
+        color: #ffffff; /* Adjust text color for better visibility */
       }
       button:nth-child(8) {
         background-color: #ffffff;
-        color: #333; /* Adjust text color for better visibility */
       }
       button:nth-child(9) {
         background-color: #ff0000;
